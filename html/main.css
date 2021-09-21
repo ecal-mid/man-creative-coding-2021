@@ -1,0 +1,77 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,500;1,700&display=swap'); */
+@font-face {
+  font-family: 'Sarabun';
+  src: url('/assets/fonts/Sarabun/Sarabun-Medium.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Sarabun';
+  src: url('/assets/fonts/Sarabun/Sarabun-MediumItalic.ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+:root {
+  --color-1: #fffb0090;
+  --color-2: #00ff00;
+  --custom-padding: 50px;
+}
+
+html {
+  /* font-family: Helvetica, Arial, sans-serif; */
+  font-family: 'Sarabun', sans-serif;
+}
+
+body {
+  background-color: var(--color-1);
+}
+
+p {
+  --color-1: lightblue;
+  background-color: red;
+  background: var(--color-1);
+}
+
+p {
+  transform: translate(100px, 0);
+  margin: none;
+  padding: var(--custom-padding);
+  /* padding-bottom: 5px; */
+  /* background-color: lightblue; */
+}
+
+article {
+  position: relative;
+}
+
+
+
+hr {
+  /* opacity: 1;
+  display: none; */
+  visibility: hidden;
+}
+
+article {
+  overflow: hidden;
+}
+
+.last-paragraph.background {
+  background-color: rgb(221, 173, 230);
+}
+/* 
+
+#unique-paragraph {
+  background-color: red;
+} */
+
+.background-element {
+  position: sticky;
+  top: 0;
+  z-index: 0;
+}
+
+.top-content {
+  position: relative;
+  z-index: 10;
+}

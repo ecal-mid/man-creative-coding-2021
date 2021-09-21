@@ -1,0 +1,65 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/normalize.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./utilitaries.js"></script>
+    <script src="./main.js"></script>
+
+    <style>
+      html {
+      }
+
+      .main-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+
+      .main-container--elem {
+        /* position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) */
+
+        width: 200px;
+        /* height: 250px; */
+        display: flex;
+        flex-direction: column;
+      }
+
+      .hidden {
+        transform: translate(0, 100px);
+        opacity: 0;
+      }
+
+      .main-container--elem > img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        transition: 0.5s all ease-in;
+        cursor: pointer;
+      }
+
+     
+
+
+    </style>
+  </head>
+  <body>
+    <!-- <img src="https://via.placeholder.com/500x500" alt="" /> -->
+    <main class="main-container">
+      <div class="main-container--elem">
+        <!-- <img src="/assets/images/500x500.png" alt="" /> -->
+      </div>
+    </main>
+  </body>
+</html>
